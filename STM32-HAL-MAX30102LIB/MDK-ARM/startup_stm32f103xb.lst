@@ -461,11 +461,11 @@ ARM Macro Assembler    Page 8
 
 Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M3 --apcs=interw
 ork --depend=stm32-hal-max30102lib\startup_stm32f103xb.d -ostm32-hal-max30102li
-b\startup_stm32f103xb.o -IC:\AAAKepler452B-DellG3\AMyProjects\Oximeter\STM32-HA
-L-MAX30102LIB\MDK-ARM\RTE -IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include -
-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0 --predefine="__MICROLIB SETA 1" -
--predefine="__UVISION_VERSION SETA 514" --predefine="_RTE_ SETA 1" --predefine=
-"STM32F10X_MD SETA 1" --list=startup_stm32f103xb.lst startup_stm32f103xb.s
+b\startup_stm32f103xb.o -IC:\AAAKepler452B-G14\MyProject\Oximeter\STM32-HAL-MAX
+30102LIB\MDK-ARM\RTE -IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include -IC:\K
+eil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1 --predefine="__MICROLIB SETA 1" --pred
+efine="__UVISION_VERSION SETA 514" --predefine="_RTE_ SETA 1" --predefine="STM3
+2F10X_MD SETA 1" --list=startup_stm32f103xb.lst startup_stm32f103xb.s
 
 
 

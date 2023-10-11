@@ -1,0 +1,12 @@
+.\objects\system_cw32l031.o: Libraries\src\system_cw32l031.c
+.\objects\system_cw32l031.o: .\Libraries\inc\cw32l031.h
+.\objects\system_cw32l031.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0plus.h
+.\objects\system_cw32l031.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\system_cw32l031.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h
+.\objects\system_cw32l031.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h
+.\objects\system_cw32l031.o: .\Libraries\inc\system_cw32l031.h
+.\objects\system_cw32l031.o: .\Libraries\inc\base_types.h
+.\objects\system_cw32l031.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\system_cw32l031.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\system_cw32l031.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\system_cw32l031.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\assert.h

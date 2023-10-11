@@ -1,0 +1,478 @@
+Dependencies for Project 'tft', Target 'Target 1': (DO NOT MODIFY !)
+F (.\USER\interrupts_cw32l031.c)(0x647B3651)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\USER -I.\Libraries\inc -I.\Libraries\src -I.\USER\inc -I.\USER\src -I.\TFT -I.\Debug -I.\Startup -I.\ADC -I.\FFT-I "C:\AAAKepler452B-G14\MyProject\Oximeter\ÑªÑõÒÇ\´úÂë-PROJ_V2 - DMA\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I Device\Include-D__UVISION_VERSION="514" -D_RTE_-o .\objects\interrupts_cw32l031.o --omf_browse .\objects\interrupts_cw32l031.crf --depend .\objects\interrupts_cw32l031.d)
+I (USER\main.h)(0x64AA4561)
+I (.\Libraries\inc\cw32l031.h)(0x62F5C370)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0plus.h)(0x53FC31DA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+I (.\Libraries\inc\system_cw32l031.h)(0x6454B190)
+I (.\Libraries\inc\base_types.h)(0x64547BE2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (USER\interrupts_cw32l031.h)(0x6466195E)
+I (.\Libraries\inc\cw32l031_adc.h)(0x62F5C370)
+I (.\Libraries\inc\cw32l031_atim.h)(0x62F5C370)
+I (.\Libraries\inc\cw32l031_awt.h)(0x62F5C370)
+I (.\Libraries\inc\cw32l031_btim.h)(0x62F5C370)
+I (.\Libraries\inc\cw32l031_crc.h)(0x62F5C370)
+I (.\Libraries\inc\cw32l031_debug.h)(0x62F5C370)
+I (.\Libraries\inc\cw32l031_digitalsign.h)(0x62F5C370)
+I (.\Libraries\inc\cw32l031_dma.h)(0x62F5C370)
+I (.\Libraries\inc\cw32l031_flash.h)(0x62F5C370)
+I (.\Libraries\inc\cw32l031_gpio.h)(0x62F5C370)
+I (.\Libraries\inc\cw32l031_gtim.h)(0x62F5C370)
+I (.\Libraries\inc\cw32l031_i2c.h)(0x62F5C370)
+I (.\Libraries\inc\cw32l031_rcc.h)(0x62F5C370)
+I (.\Libraries\inc\cw32l031_iwdt.h)(0x62F5C370)
+I (.\Libraries\inc\cw32l031_lvd.h)(0x62F5C370)
+I (.\Libraries\inc\cw32l031_pwr.h)(0x62F5C370)
+I (.\Libraries\inc\cw32l031_ram.h)(0x62F5C370)
+I (.\Libraries\inc\cw32l031_rtc.h)(0x62F5C370)
+I (.\Libraries\inc\cw32l031_spi.h)(0x62F5C370)
+I (.\Libraries\inc\cw32l031_systick.h)(0x62F5C370)
+I (.\Libraries\inc\cw32l031_uart.h)(0x62F5C370)
+I (.\Libraries\inc\cw32l031_wwdt.h)(0x62F5C370)
+F (.\USER\interrupts_cw32l031.h)(0x6466195E)()
+F (.\USER\main.c)(0x64AA786A)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\USER -I.\Libraries\inc -I.\Libraries\src -I.\USER\inc -I.\USER\src -I.\TFT -I.\Debug -I.\Startup -I.\ADC -I.\FFT-I "C:\AAAKepler452B-G14\MyProject\Oximeter\ÑªÑõÒÇ\´úÂë-PROJ_V2 - DMA\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I Device\Include-D__UVISION_VERSION="514" -D_RTE_-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (USER\main.h)(0x64AA4561)
+I (.\Libraries\inc\cw32l031.h)(0x62F5C370)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0plus.h)(0x53FC31DA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+I (.\Libraries\inc\system_cw32l031.h)(0x6454B190)
+I (.\Libraries\inc\base_types.h)(0x64547BE2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (USER\interrupts_cw32l031.h)(0x6466195E)
+I (.\Libraries\inc\cw32l031_adc.h)(0x62F5C370)
+I (.\Libraries\inc\cw32l031_atim.h)(0x62F5C370)
+I (.\Libraries\inc\cw32l031_awt.h)(0x62F5C370)
+I (.\Libraries\inc\cw32l031_btim.h)(0x62F5C370)
+I (.\Libraries\inc\cw32l031_crc.h)(0x62F5C370)
+I (.\Libraries\inc\cw32l031_debug.h)(0x62F5C370)
+I (.\Libraries\inc\cw32l031_digitalsign.h)(0x62F5C370)
+I (.\Libraries\inc\cw32l031_dma.h)(0x62F5C370)
+I (.\Libraries\inc\cw32l031_flash.h)(0x62F5C370)
+I (.\Libraries\inc\cw32l031_gpio.h)(0x62F5C370)
+I (.\Libraries\inc\cw32l031_gtim.h)(0x62F5C370)
+I (.\Libraries\inc\cw32l031_i2c.h)(0x62F5C370)
+I (.\Libraries\inc\cw32l031_rcc.h)(0x62F5C370)
+I (.\Libraries\inc\cw32l031_iwdt.h)(0x62F5C370)
+I (.\Libraries\inc\cw32l031_lvd.h)(0x62F5C370)
+I (.\Libraries\inc\cw32l031_pwr.h)(0x62F5C370)
+I (.\Libraries\inc\cw32l031_ram.h)(0x62F5C370)
+I (.\Libraries\inc\cw32l031_rtc.h)(0x62F5C370)
+I (.\Libraries\inc\cw32l031_spi.h)(0x62F5C370)
+I (.\Libraries\inc\cw32l031_systick.h)(0x62F5C370)
+I (.\Libraries\inc\cw32l031_uart.h)(0x62F5C370)
+I (.\Libraries\inc\cw32l031_wwdt.h)(0x62F5C370)
+I (.\TFT\LCD.h)(0x647AD460)
+I (.\TFT\LCD_INIT.h)(0x64AA6FAF)
+I (.\TFT\pic.h)(0x646832B6)
+I (.\FFT\FFT.h)(0x646235BE)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5475F2FE)
+F (.\USER\main.h)(0x64AA4561)()
+F (.\Libraries\src\cw32l031_adc.c)(0x62F5C370)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\USER -I.\Libraries\inc -I.\Libraries\src -I.\USER\inc -I.\USER\src -I.\TFT -I.\Debug -I.\Startup -I.\ADC -I.\FFT-I "C:\AAAKepler452B-G14\MyProject\Oximeter\ÑªÑõÒÇ\´úÂë-PROJ_V2 - DMA\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I Device\Include-D__UVISION_VERSION="514" -D_RTE_-o .\objects\cw32l031_adc.o --omf_browse .\objects\cw32l031_adc.crf --depend .\objects\cw32l031_adc.d)
+I (.\Libraries\inc\cw32l031.h)(0x62F5C370)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0plus.h)(0x53FC31DA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+I (.\Libraries\inc\system_cw32l031.h)(0x6454B190)
+I (.\Libraries\inc\base_types.h)(0x64547BE2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (.\Libraries\inc\cw32l031_adc.h)(0x62F5C370)
+I (.\Libraries\inc\cw32l031_gpio.h)(0x62F5C370)
+F (.\Libraries\src\cw32l031_atim.c)(0x62F5C370)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\USER -I.\Libraries\inc -I.\Libraries\src -I.\USER\inc -I.\USER\src -I.\TFT -I.\Debug -I.\Startup -I.\ADC -I.\FFT-I "C:\AAAKepler452B-G14\MyProject\Oximeter\ÑªÑõÒÇ\´úÂë-PROJ_V2 - DMA\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I Device\Include-D__UVISION_VERSION="514" -D_RTE_-o .\objects\cw32l031_atim.o --omf_browse .\objects\cw32l031_atim.crf --depend .\objects\cw32l031_atim.d)
+I (.\Libraries\inc\cw32l031_atim.h)(0x62F5C370)
+I (.\Libraries\inc\cw32l031.h)(0x62F5C370)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0plus.h)(0x53FC31DA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+I (.\Libraries\inc\system_cw32l031.h)(0x6454B190)
+I (.\Libraries\inc\base_types.h)(0x64547BE2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5475F300)
+F (.\Libraries\src\cw32l031_awt.c)(0x62F5C370)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\USER -I.\Libraries\inc -I.\Libraries\src -I.\USER\inc -I.\USER\src -I.\TFT -I.\Debug -I.\Startup -I.\ADC -I.\FFT-I "C:\AAAKepler452B-G14\MyProject\Oximeter\ÑªÑõÒÇ\´úÂë-PROJ_V2 - DMA\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I Device\Include-D__UVISION_VERSION="514" -D_RTE_-o .\objects\cw32l031_awt.o --omf_browse .\objects\cw32l031_awt.crf --depend .\objects\cw32l031_awt.d)
+I (.\Libraries\inc\cw32l031_awt.h)(0x62F5C370)
+I (.\Libraries\inc\cw32l031.h)(0x62F5C370)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0plus.h)(0x53FC31DA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+I (.\Libraries\inc\system_cw32l031.h)(0x6454B190)
+I (.\Libraries\inc\base_types.h)(0x64547BE2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5475F300)
+F (.\Libraries\src\cw32l031_btim.c)(0x62F5C370)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\USER -I.\Libraries\inc -I.\Libraries\src -I.\USER\inc -I.\USER\src -I.\TFT -I.\Debug -I.\Startup -I.\ADC -I.\FFT-I "C:\AAAKepler452B-G14\MyProject\Oximeter\ÑªÑõÒÇ\´úÂë-PROJ_V2 - DMA\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I Device\Include-D__UVISION_VERSION="514" -D_RTE_-o .\objects\cw32l031_btim.o --omf_browse .\objects\cw32l031_btim.crf --depend .\objects\cw32l031_btim.d)
+I (.\Libraries\inc\cw32l031_btim.h)(0x62F5C370)
+I (.\Libraries\inc\cw32l031.h)(0x62F5C370)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0plus.h)(0x53FC31DA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+I (.\Libraries\inc\system_cw32l031.h)(0x6454B190)
+I (.\Libraries\inc\base_types.h)(0x64547BE2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5475F300)
+F (.\Libraries\src\cw32l031_crc.c)(0x62F5C370)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\USER -I.\Libraries\inc -I.\Libraries\src -I.\USER\inc -I.\USER\src -I.\TFT -I.\Debug -I.\Startup -I.\ADC -I.\FFT-I "C:\AAAKepler452B-G14\MyProject\Oximeter\ÑªÑõÒÇ\´úÂë-PROJ_V2 - DMA\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I Device\Include-D__UVISION_VERSION="514" -D_RTE_-o .\objects\cw32l031_crc.o --omf_browse .\objects\cw32l031_crc.crf --depend .\objects\cw32l031_crc.d)
+I (.\Libraries\inc\cw32l031_crc.h)(0x62F5C370)
+I (.\Libraries\inc\base_types.h)(0x64547BE2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (.\Libraries\inc\cw32l031.h)(0x62F5C370)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0plus.h)(0x53FC31DA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+I (.\Libraries\inc\system_cw32l031.h)(0x6454B190)
+F (.\Libraries\src\cw32l031_debug.c)(0x62F5C370)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\USER -I.\Libraries\inc -I.\Libraries\src -I.\USER\inc -I.\USER\src -I.\TFT -I.\Debug -I.\Startup -I.\ADC -I.\FFT-I "C:\AAAKepler452B-G14\MyProject\Oximeter\ÑªÑõÒÇ\´úÂë-PROJ_V2 - DMA\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I Device\Include-D__UVISION_VERSION="514" -D_RTE_-o .\objects\cw32l031_debug.o --omf_browse .\objects\cw32l031_debug.crf --depend .\objects\cw32l031_debug.d)
+I (.\Libraries\inc\cw32l031_debug.h)(0x62F5C370)
+I (.\Libraries\inc\base_types.h)(0x64547BE2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (.\Libraries\inc\cw32l031.h)(0x62F5C370)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0plus.h)(0x53FC31DA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+I (.\Libraries\inc\system_cw32l031.h)(0x6454B190)
+F (.\Libraries\src\cw32l031_digitalsign.c)(0x62F5C370)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\USER -I.\Libraries\inc -I.\Libraries\src -I.\USER\inc -I.\USER\src -I.\TFT -I.\Debug -I.\Startup -I.\ADC -I.\FFT-I "C:\AAAKepler452B-G14\MyProject\Oximeter\ÑªÑõÒÇ\´úÂë-PROJ_V2 - DMA\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I Device\Include-D__UVISION_VERSION="514" -D_RTE_-o .\objects\cw32l031_digitalsign.o --omf_browse .\objects\cw32l031_digitalsign.crf --depend .\objects\cw32l031_digitalsign.d)
+I (.\Libraries\inc\cw32l031_digitalsign.h)(0x62F5C370)
+I (.\Libraries\inc\base_types.h)(0x64547BE2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (.\Libraries\inc\cw32l031.h)(0x62F5C370)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0plus.h)(0x53FC31DA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+I (.\Libraries\inc\system_cw32l031.h)(0x6454B190)
+F (.\Libraries\src\cw32l031_dma.c)(0x62F5C370)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\USER -I.\Libraries\inc -I.\Libraries\src -I.\USER\inc -I.\USER\src -I.\TFT -I.\Debug -I.\Startup -I.\ADC -I.\FFT-I "C:\AAAKepler452B-G14\MyProject\Oximeter\ÑªÑõÒÇ\´úÂë-PROJ_V2 - DMA\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I Device\Include-D__UVISION_VERSION="514" -D_RTE_-o .\objects\cw32l031_dma.o --omf_browse .\objects\cw32l031_dma.crf --depend .\objects\cw32l031_dma.d)
+I (.\Libraries\inc\cw32l031_dma.h)(0x62F5C370)
+I (.\Libraries\inc\base_types.h)(0x64547BE2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (.\Libraries\inc\cw32l031.h)(0x62F5C370)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0plus.h)(0x53FC31DA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+I (.\Libraries\inc\system_cw32l031.h)(0x6454B190)
+F (.\Libraries\src\cw32l031_flash.c)(0x62F5C370)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\USER -I.\Libraries\inc -I.\Libraries\src -I.\USER\inc -I.\USER\src -I.\TFT -I.\Debug -I.\Startup -I.\ADC -I.\FFT-I "C:\AAAKepler452B-G14\MyProject\Oximeter\ÑªÑõÒÇ\´úÂë-PROJ_V2 - DMA\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I Device\Include-D__UVISION_VERSION="514" -D_RTE_-o .\objects\cw32l031_flash.o --omf_browse .\objects\cw32l031_flash.crf --depend .\objects\cw32l031_flash.d)
+I (.\Libraries\inc\cw32l031_flash.h)(0x62F5C370)
+I (.\Libraries\inc\base_types.h)(0x64547BE2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (.\Libraries\inc\cw32l031.h)(0x62F5C370)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0plus.h)(0x53FC31DA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+I (.\Libraries\inc\system_cw32l031.h)(0x6454B190)
+F (.\Libraries\src\cw32l031_gpio.c)(0x62F5C370)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\USER -I.\Libraries\inc -I.\Libraries\src -I.\USER\inc -I.\USER\src -I.\TFT -I.\Debug -I.\Startup -I.\ADC -I.\FFT-I "C:\AAAKepler452B-G14\MyProject\Oximeter\ÑªÑõÒÇ\´úÂë-PROJ_V2 - DMA\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I Device\Include-D__UVISION_VERSION="514" -D_RTE_-o .\objects\cw32l031_gpio.o --omf_browse .\objects\cw32l031_gpio.crf --depend .\objects\cw32l031_gpio.d)
+I (.\Libraries\inc\cw32l031_gpio.h)(0x62F5C370)
+I (.\Libraries\inc\base_types.h)(0x64547BE2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (.\Libraries\inc\cw32l031.h)(0x62F5C370)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0plus.h)(0x53FC31DA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+I (.\Libraries\inc\system_cw32l031.h)(0x6454B190)
+F (.\Libraries\src\cw32l031_gtim.c)(0x62F5C370)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\USER -I.\Libraries\inc -I.\Libraries\src -I.\USER\inc -I.\USER\src -I.\TFT -I.\Debug -I.\Startup -I.\ADC -I.\FFT-I "C:\AAAKepler452B-G14\MyProject\Oximeter\ÑªÑõÒÇ\´úÂë-PROJ_V2 - DMA\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I Device\Include-D__UVISION_VERSION="514" -D_RTE_-o .\objects\cw32l031_gtim.o --omf_browse .\objects\cw32l031_gtim.crf --depend .\objects\cw32l031_gtim.d)
+I (.\Libraries\inc\cw32l031_gtim.h)(0x62F5C370)
+I (.\Libraries\inc\base_types.h)(0x64547BE2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (.\Libraries\inc\cw32l031.h)(0x62F5C370)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0plus.h)(0x53FC31DA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+I (.\Libraries\inc\system_cw32l031.h)(0x6454B190)
+F (.\Libraries\src\cw32l031_i2c.c)(0x62F5C370)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\USER -I.\Libraries\inc -I.\Libraries\src -I.\USER\inc -I.\USER\src -I.\TFT -I.\Debug -I.\Startup -I.\ADC -I.\FFT-I "C:\AAAKepler452B-G14\MyProject\Oximeter\ÑªÑõÒÇ\´úÂë-PROJ_V2 - DMA\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I Device\Include-D__UVISION_VERSION="514" -D_RTE_-o .\objects\cw32l031_i2c.o --omf_browse .\objects\cw32l031_i2c.crf --depend .\objects\cw32l031_i2c.d)
+I (.\Libraries\inc\cw32l031_i2c.h)(0x62F5C370)
+I (.\Libraries\inc\cw32l031.h)(0x62F5C370)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0plus.h)(0x53FC31DA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+I (.\Libraries\inc\system_cw32l031.h)(0x6454B190)
+I (.\Libraries\inc\base_types.h)(0x64547BE2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (.\Libraries\inc\cw32l031_rcc.h)(0x62F5C370)
+F (.\Libraries\src\cw32l031_iwdt.c)(0x62F5C370)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\USER -I.\Libraries\inc -I.\Libraries\src -I.\USER\inc -I.\USER\src -I.\TFT -I.\Debug -I.\Startup -I.\ADC -I.\FFT-I "C:\AAAKepler452B-G14\MyProject\Oximeter\ÑªÑõÒÇ\´úÂë-PROJ_V2 - DMA\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I Device\Include-D__UVISION_VERSION="514" -D_RTE_-o .\objects\cw32l031_iwdt.o --omf_browse .\objects\cw32l031_iwdt.crf --depend .\objects\cw32l031_iwdt.d)
+I (.\Libraries\inc\cw32l031_iwdt.h)(0x62F5C370)
+I (.\Libraries\inc\cw32l031.h)(0x62F5C370)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0plus.h)(0x53FC31DA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+I (.\Libraries\inc\system_cw32l031.h)(0x6454B190)
+I (.\Libraries\inc\base_types.h)(0x64547BE2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5475F300)
+F (.\Libraries\src\cw32l031_lvd.c)(0x62F5C370)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\USER -I.\Libraries\inc -I.\Libraries\src -I.\USER\inc -I.\USER\src -I.\TFT -I.\Debug -I.\Startup -I.\ADC -I.\FFT-I "C:\AAAKepler452B-G14\MyProject\Oximeter\ÑªÑõÒÇ\´úÂë-PROJ_V2 - DMA\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I Device\Include-D__UVISION_VERSION="514" -D_RTE_-o .\objects\cw32l031_lvd.o --omf_browse .\objects\cw32l031_lvd.crf --depend .\objects\cw32l031_lvd.d)
+I (.\Libraries\inc\cw32l031.h)(0x62F5C370)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0plus.h)(0x53FC31DA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+I (.\Libraries\inc\system_cw32l031.h)(0x6454B190)
+I (.\Libraries\inc\base_types.h)(0x64547BE2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (.\Libraries\inc\cw32l031_lvd.h)(0x62F5C370)
+F (.\Libraries\src\cw32l031_pwr.c)(0x62F5C370)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\USER -I.\Libraries\inc -I.\Libraries\src -I.\USER\inc -I.\USER\src -I.\TFT -I.\Debug -I.\Startup -I.\ADC -I.\FFT-I "C:\AAAKepler452B-G14\MyProject\Oximeter\ÑªÑõÒÇ\´úÂë-PROJ_V2 - DMA\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I Device\Include-D__UVISION_VERSION="514" -D_RTE_-o .\objects\cw32l031_pwr.o --omf_browse .\objects\cw32l031_pwr.crf --depend .\objects\cw32l031_pwr.d)
+I (.\Libraries\inc\cw32l031.h)(0x62F5C370)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0plus.h)(0x53FC31DA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+I (.\Libraries\inc\system_cw32l031.h)(0x6454B190)
+I (.\Libraries\inc\base_types.h)(0x64547BE2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (.\Libraries\inc\cw32l031_pwr.h)(0x62F5C370)
+F (.\Libraries\src\cw32l031_ram.c)(0x62F5C370)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\USER -I.\Libraries\inc -I.\Libraries\src -I.\USER\inc -I.\USER\src -I.\TFT -I.\Debug -I.\Startup -I.\ADC -I.\FFT-I "C:\AAAKepler452B-G14\MyProject\Oximeter\ÑªÑõÒÇ\´úÂë-PROJ_V2 - DMA\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I Device\Include-D__UVISION_VERSION="514" -D_RTE_-o .\objects\cw32l031_ram.o --omf_browse .\objects\cw32l031_ram.crf --depend .\objects\cw32l031_ram.d)
+I (.\Libraries\inc\cw32l031_ram.h)(0x62F5C370)
+I (.\Libraries\inc\base_types.h)(0x64547BE2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (.\Libraries\inc\cw32l031.h)(0x62F5C370)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0plus.h)(0x53FC31DA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+I (.\Libraries\inc\system_cw32l031.h)(0x6454B190)
+F (.\Libraries\src\cw32l031_rcc.c)(0x62F5C370)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\USER -I.\Libraries\inc -I.\Libraries\src -I.\USER\inc -I.\USER\src -I.\TFT -I.\Debug -I.\Startup -I.\ADC -I.\FFT-I "C:\AAAKepler452B-G14\MyProject\Oximeter\ÑªÑõÒÇ\´úÂë-PROJ_V2 - DMA\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I Device\Include-D__UVISION_VERSION="514" -D_RTE_-o .\objects\cw32l031_rcc.o --omf_browse .\objects\cw32l031_rcc.crf --depend .\objects\cw32l031_rcc.d)
+I (.\Libraries\inc\cw32l031_rcc.h)(0x62F5C370)
+I (.\Libraries\inc\cw32l031.h)(0x62F5C370)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0plus.h)(0x53FC31DA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+I (.\Libraries\inc\system_cw32l031.h)(0x6454B190)
+I (.\Libraries\inc\base_types.h)(0x64547BE2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5475F300)
+F (.\Libraries\src\cw32l031_rtc.c)(0x62F5C370)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\USER -I.\Libraries\inc -I.\Libraries\src -I.\USER\inc -I.\USER\src -I.\TFT -I.\Debug -I.\Startup -I.\ADC -I.\FFT-I "C:\AAAKepler452B-G14\MyProject\Oximeter\ÑªÑõÒÇ\´úÂë-PROJ_V2 - DMA\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I Device\Include-D__UVISION_VERSION="514" -D_RTE_-o .\objects\cw32l031_rtc.o --omf_browse .\objects\cw32l031_rtc.crf --depend .\objects\cw32l031_rtc.d)
+I (.\Libraries\inc\cw32l031_rtc.h)(0x62F5C370)
+I (.\Libraries\inc\base_types.h)(0x64547BE2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (.\Libraries\inc\cw32l031.h)(0x62F5C370)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0plus.h)(0x53FC31DA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+I (.\Libraries\inc\system_cw32l031.h)(0x6454B190)
+I (.\Libraries\inc\cw32l031_rcc.h)(0x62F5C370)
+F (.\Libraries\src\cw32l031_spi.c)(0x62F5C370)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\USER -I.\Libraries\inc -I.\Libraries\src -I.\USER\inc -I.\USER\src -I.\TFT -I.\Debug -I.\Startup -I.\ADC -I.\FFT-I "C:\AAAKepler452B-G14\MyProject\Oximeter\ÑªÑõÒÇ\´úÂë-PROJ_V2 - DMA\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I Device\Include-D__UVISION_VERSION="514" -D_RTE_-o .\objects\cw32l031_spi.o --omf_browse .\objects\cw32l031_spi.crf --depend .\objects\cw32l031_spi.d)
+I (.\Libraries\inc\cw32l031_spi.h)(0x62F5C370)
+I (.\Libraries\inc\cw32l031.h)(0x62F5C370)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0plus.h)(0x53FC31DA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+I (.\Libraries\inc\system_cw32l031.h)(0x6454B190)
+I (.\Libraries\inc\base_types.h)(0x64547BE2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5475F300)
+F (.\Libraries\src\cw32l031_systick.c)(0x62F5C370)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\USER -I.\Libraries\inc -I.\Libraries\src -I.\USER\inc -I.\USER\src -I.\TFT -I.\Debug -I.\Startup -I.\ADC -I.\FFT-I "C:\AAAKepler452B-G14\MyProject\Oximeter\ÑªÑõÒÇ\´úÂë-PROJ_V2 - DMA\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I Device\Include-D__UVISION_VERSION="514" -D_RTE_-o .\objects\cw32l031_systick.o --omf_browse .\objects\cw32l031_systick.crf --depend .\objects\cw32l031_systick.d)
+I (.\Libraries\inc\cw32l031_systick.h)(0x62F5C370)
+I (.\Libraries\inc\base_types.h)(0x64547BE2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (.\Libraries\inc\cw32l031.h)(0x62F5C370)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0plus.h)(0x53FC31DA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+I (.\Libraries\inc\system_cw32l031.h)(0x6454B190)
+F (.\Libraries\src\cw32l031_uart.c)(0x62F5C370)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\USER -I.\Libraries\inc -I.\Libraries\src -I.\USER\inc -I.\USER\src -I.\TFT -I.\Debug -I.\Startup -I.\ADC -I.\FFT-I "C:\AAAKepler452B-G14\MyProject\Oximeter\ÑªÑõÒÇ\´úÂë-PROJ_V2 - DMA\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I Device\Include-D__UVISION_VERSION="514" -D_RTE_-o .\objects\cw32l031_uart.o --omf_browse .\objects\cw32l031_uart.crf --depend .\objects\cw32l031_uart.d)
+I (.\Libraries\inc\cw32l031_uart.h)(0x62F5C370)
+I (.\Libraries\inc\cw32l031.h)(0x62F5C370)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0plus.h)(0x53FC31DA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+I (.\Libraries\inc\system_cw32l031.h)(0x6454B190)
+I (.\Libraries\inc\base_types.h)(0x64547BE2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5475F300)
+F (.\Libraries\src\cw32l031_vc.c)(0x62F5C370)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\USER -I.\Libraries\inc -I.\Libraries\src -I.\USER\inc -I.\USER\src -I.\TFT -I.\Debug -I.\Startup -I.\ADC -I.\FFT-I "C:\AAAKepler452B-G14\MyProject\Oximeter\ÑªÑõÒÇ\´úÂë-PROJ_V2 - DMA\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I Device\Include-D__UVISION_VERSION="514" -D_RTE_-o .\objects\cw32l031_vc.o --omf_browse .\objects\cw32l031_vc.crf --depend .\objects\cw32l031_vc.d)
+I (.\Libraries\inc\cw32l031.h)(0x62F5C370)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0plus.h)(0x53FC31DA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+I (.\Libraries\inc\system_cw32l031.h)(0x6454B190)
+I (.\Libraries\inc\base_types.h)(0x64547BE2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (.\Libraries\inc\cw32l031_vc.h)(0x62F5C370)
+I (.\Libraries\inc\cw32l031_adc.h)(0x62F5C370)
+F (.\Libraries\src\cw32l031_wwdt.c)(0x62F5C370)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\USER -I.\Libraries\inc -I.\Libraries\src -I.\USER\inc -I.\USER\src -I.\TFT -I.\Debug -I.\Startup -I.\ADC -I.\FFT-I "C:\AAAKepler452B-G14\MyProject\Oximeter\ÑªÑõÒÇ\´úÂë-PROJ_V2 - DMA\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I Device\Include-D__UVISION_VERSION="514" -D_RTE_-o .\objects\cw32l031_wwdt.o --omf_browse .\objects\cw32l031_wwdt.crf --depend .\objects\cw32l031_wwdt.d)
+I (.\Libraries\inc\cw32l031_wwdt.h)(0x62F5C370)
+I (.\Libraries\inc\cw32l031.h)(0x62F5C370)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0plus.h)(0x53FC31DA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+I (.\Libraries\inc\system_cw32l031.h)(0x6454B190)
+I (.\Libraries\inc\base_types.h)(0x64547BE2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5475F300)
+F (.\Libraries\src\system_cw32l031.c)(0x646DCDDE)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\USER -I.\Libraries\inc -I.\Libraries\src -I.\USER\inc -I.\USER\src -I.\TFT -I.\Debug -I.\Startup -I.\ADC -I.\FFT-I "C:\AAAKepler452B-G14\MyProject\Oximeter\ÑªÑõÒÇ\´úÂë-PROJ_V2 - DMA\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I Device\Include-D__UVISION_VERSION="514" -D_RTE_-o .\objects\system_cw32l031.o --omf_browse .\objects\system_cw32l031.crf --depend .\objects\system_cw32l031.d)
+I (.\Libraries\inc\cw32l031.h)(0x62F5C370)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0plus.h)(0x53FC31DA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+I (.\Libraries\inc\system_cw32l031.h)(0x6454B190)
+I (.\Libraries\inc\base_types.h)(0x64547BE2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5475F300)
+F (.\TFT\LCD.c)(0x64AA6D2E)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\USER -I.\Libraries\inc -I.\Libraries\src -I.\USER\inc -I.\USER\src -I.\TFT -I.\Debug -I.\Startup -I.\ADC -I.\FFT-I "C:\AAAKepler452B-G14\MyProject\Oximeter\ÑªÑõÒÇ\´úÂë-PROJ_V2 - DMA\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I Device\Include-D__UVISION_VERSION="514" -D_RTE_-o .\objects\lcd.o --omf_browse .\objects\lcd.crf --depend .\objects\lcd.d)
+I (TFT\LCD.h)(0x647AD460)
+I (.\USER\main.h)(0x64AA4561)
+I (.\Libraries\inc\cw32l031.h)(0x62F5C370)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0plus.h)(0x53FC31DA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+I (.\Libraries\inc\system_cw32l031.h)(0x6454B190)
+I (.\Libraries\inc\base_types.h)(0x64547BE2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (.\USER\interrupts_cw32l031.h)(0x6466195E)
+I (.\Libraries\inc\cw32l031_adc.h)(0x62F5C370)
+I (.\Libraries\inc\cw32l031_atim.h)(0x62F5C370)
+I (.\Libraries\inc\cw32l031_awt.h)(0x62F5C370)
+I (.\Libraries\inc\cw32l031_btim.h)(0x62F5C370)
+I (.\Libraries\inc\cw32l031_crc.h)(0x62F5C370)
+I (.\Libraries\inc\cw32l031_debug.h)(0x62F5C370)
+I (.\Libraries\inc\cw32l031_digitalsign.h)(0x62F5C370)
+I (.\Libraries\inc\cw32l031_dma.h)(0x62F5C370)
+I (.\Libraries\inc\cw32l031_flash.h)(0x62F5C370)
+I (.\Libraries\inc\cw32l031_gpio.h)(0x62F5C370)
+I (.\Libraries\inc\cw32l031_gtim.h)(0x62F5C370)
+I (.\Libraries\inc\cw32l031_i2c.h)(0x62F5C370)
+I (.\Libraries\inc\cw32l031_rcc.h)(0x62F5C370)
+I (.\Libraries\inc\cw32l031_iwdt.h)(0x62F5C370)
+I (.\Libraries\inc\cw32l031_lvd.h)(0x62F5C370)
+I (.\Libraries\inc\cw32l031_pwr.h)(0x62F5C370)
+I (.\Libraries\inc\cw32l031_ram.h)(0x62F5C370)
+I (.\Libraries\inc\cw32l031_rtc.h)(0x62F5C370)
+I (.\Libraries\inc\cw32l031_spi.h)(0x62F5C370)
+I (.\Libraries\inc\cw32l031_systick.h)(0x62F5C370)
+I (.\Libraries\inc\cw32l031_uart.h)(0x62F5C370)
+I (.\Libraries\inc\cw32l031_wwdt.h)(0x62F5C370)
+I (TFT\LCD_INIT.h)(0x64AA6FAF)
+I (TFT\LCD_FONT.h)(0x64799582)
+F (.\TFT\LCD_INIT.c)(0x64796572)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\USER -I.\Libraries\inc -I.\Libraries\src -I.\USER\inc -I.\USER\src -I.\TFT -I.\Debug -I.\Startup -I.\ADC -I.\FFT-I "C:\AAAKepler452B-G14\MyProject\Oximeter\ÑªÑõÒÇ\´úÂë-PROJ_V2 - DMA\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I Device\Include-D__UVISION_VERSION="514" -D_RTE_-o .\objects\lcd_init.o --omf_browse .\objects\lcd_init.crf --depend .\objects\lcd_init.d)
+I (TFT\LCD_INIT.h)(0x64AA6FAF)
+I (.\USER\main.h)(0x64AA4561)
+I (.\Libraries\inc\cw32l031.h)(0x62F5C370)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0plus.h)(0x53FC31DA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+I (.\Libraries\inc\system_cw32l031.h)(0x6454B190)
+I (.\Libraries\inc\base_types.h)(0x64547BE2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (.\USER\interrupts_cw32l031.h)(0x6466195E)
+I (.\Libraries\inc\cw32l031_adc.h)(0x62F5C370)
+I (.\Libraries\inc\cw32l031_atim.h)(0x62F5C370)
+I (.\Libraries\inc\cw32l031_awt.h)(0x62F5C370)
+I (.\Libraries\inc\cw32l031_btim.h)(0x62F5C370)
+I (.\Libraries\inc\cw32l031_crc.h)(0x62F5C370)
+I (.\Libraries\inc\cw32l031_debug.h)(0x62F5C370)
+I (.\Libraries\inc\cw32l031_digitalsign.h)(0x62F5C370)
+I (.\Libraries\inc\cw32l031_dma.h)(0x62F5C370)
+I (.\Libraries\inc\cw32l031_flash.h)(0x62F5C370)
+I (.\Libraries\inc\cw32l031_gpio.h)(0x62F5C370)
+I (.\Libraries\inc\cw32l031_gtim.h)(0x62F5C370)
+I (.\Libraries\inc\cw32l031_i2c.h)(0x62F5C370)
+I (.\Libraries\inc\cw32l031_rcc.h)(0x62F5C370)
+I (.\Libraries\inc\cw32l031_iwdt.h)(0x62F5C370)
+I (.\Libraries\inc\cw32l031_lvd.h)(0x62F5C370)
+I (.\Libraries\inc\cw32l031_pwr.h)(0x62F5C370)
+I (.\Libraries\inc\cw32l031_ram.h)(0x62F5C370)
+I (.\Libraries\inc\cw32l031_rtc.h)(0x62F5C370)
+I (.\Libraries\inc\cw32l031_spi.h)(0x62F5C370)
+I (.\Libraries\inc\cw32l031_systick.h)(0x62F5C370)
+I (.\Libraries\inc\cw32l031_uart.h)(0x62F5C370)
+I (.\Libraries\inc\cw32l031_wwdt.h)(0x62F5C370)
+F (.\TFT\LCD_FONT.h)(0x64799582)()
+F (.\TFT\pic.h)(0x646832B6)()
+F (.\Startup\startup_cw32l031.s)(0x63B6485C)(--cpu Cortex-M0+ -g --apcs=interwork --pd "__MICROLIB SETA 1"-I "C:\AAAKepler452B-G14\MyProject\Oximeter\ÑªÑõÒÇ\´úÂë-PROJ_V2 - DMA\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I Device\Include--pd "__UVISION_VERSION SETA 514" --pd "_RTE_ SETA 1"--list .\listings\startup_cw32l031.lst --xref -o .\objects\startup_cw32l031.o --depend .\objects\startup_cw32l031.d)
+F (.\Libraries\inc\cw32l031.h)(0x62F5C370)()
+F (.\FFT\FFT.c)(0x647604DB)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\USER -I.\Libraries\inc -I.\Libraries\src -I.\USER\inc -I.\USER\src -I.\TFT -I.\Debug -I.\Startup -I.\ADC -I.\FFT-I "C:\AAAKepler452B-G14\MyProject\Oximeter\ÑªÑõÒÇ\´úÂë-PROJ_V2 - DMA\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I Device\Include-D__UVISION_VERSION="514" -D_RTE_-o .\objects\fft.o --omf_browse .\objects\fft.crf --depend .\objects\fft.d)
+I (FFT\FFT.h)(0x646235BE)
+F (.\FFT\FFT.h)(0x646235BE)()
